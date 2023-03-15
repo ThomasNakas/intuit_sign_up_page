@@ -1,1 +1,1 @@
-# intuit_sign_up_page_replication
+# For instructions, please check the "Project: HTML Forms & Validation" on Week 10 on Athena Platform

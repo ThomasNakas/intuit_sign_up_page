@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="forms.css">
+    
+    <!-- Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Padyakke+Expanded+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet"><!-- //JS FA -->
+    <script src="https://kit.fontawesome.com/661ab3ed24.js" crossorigin="anonymous"></script>
+    <!-- jquery -->
+                <script
+            src="https://code.jquery.com/jquery-3.6.3.js"
+            integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+            crossorigin="anonymous"></script>
+    
+    <title>Forms</title>
+</head>
+<body>
+    
+    <table id="logIn">
+        <th>
+           <p class="open_grey">Already have an Intuit Account?</p>
+           <p class="open_grey"><a href="">I forgot my User ID or Password</a></p>
+       </th>
+        <th>
+           <button type="submit">Sign In</button>
+        </th>
+     </table>
+     <div id="logo_section">
+        <h1>I<span id="speshial_logo_letter">n</span>TUIT</h1>
+    <p><a class="Logo_links" href="">mint</a><a class="Logo_links" href="">quickbooks</a><a class="Logo_links" href="">turbotax</a></p>
+    </div>
+    <section id="main_body">
+      <fieldset>
+        <div class="legend_section">
+            <div id="cr_acc">Create an Intuit Account</div><p><span class="open_grey">One account connected to everything Intuit, including Mint.<a href="">Learn more</a></span></p>
+        </div>
+         <label for="email">Email</label>
+          <br>
+          <input class="email" id="textArea" type="email" name="email" placeholder="someone@youremail.com" required>
+          <br>
+          <label for="Phone">Phone<span class="open_grey" >(Recommended)</span></label>
+          <br>
+          <input class="phone" id="textArea" type="text" name="Phone" placeholder="+99-999-999-9999">
+          <br>
+          <label for="password">Password</label>
+          <br>
+          <input class="password" id="textArea" type="password" name="password" required>
+            <div id="requirements">
+              <ul>
+                     <li class="required_list">Use 10 or more characters</li>
+                     <li class="required_list">Use upper and lower case letters</li>
+                     <li class="required_list">Use a number</li>
+                     <li class="required_list">Use a symbol</li>
+              </ul>
+            </div>
+            <label for="confirm">Confirm Your Password</label><br>
+            <input class="confirm" id="textArea" type="password"name="confirm">
+            <br>
+            <button id="create_an_account"type="submit">Create account</button>
+            <div id="caution"></div>
+            <div class="footer_of"><p><span class="open_grey">One account connected to everything Intuit, including Mint.<a href="">Learn more</a></span></p>
+            </div>
+            </fieldset>
+        <div class="field_set_footer">
+            <p> <span class="open_grey">Invisible reCAPTCHA by Google <a>Privacy Policy</a> and<a>Terms of Use</a></span></p>    
+        </div>
+        
+    </section>
+            <div id="about_policy"><a href="">Legal </a><a href="">Privacy </a><a href="">Security</a>
+                <p><span class="open_grey">© 2023 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect, Mint, Credit Karma, and Mailchimp are registered trademarks of Intuit Inc.</span></p>
+                <p><span class="open_grey">Terms and conditions, features, support, pricing, and service options subject to change without notice.</span></p>
+            </div>
+      <footer class="LastFooter">
+            <p> <a href="">Privacy</a> <a href="">Settings</a></p>
+      </footer>
+      <script src="forms.js"></script>
+</body>
+</html>
